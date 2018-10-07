@@ -10,12 +10,11 @@
   background-size: cover;
   -o-background-size: cover;
 }
-.serif,
-body,
-.intro-header .post-heading .meta {
+.serif {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 .sans-serif,
+body,
 h1,
 h2,
 h3,
@@ -26,10 +25,11 @@ h6,
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading,
 .intro-header .post-heading .subheading,
+.intro-header .post-heading .meta,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans Korean', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body {
   font-size: 20px;
@@ -469,7 +469,7 @@ article .container .row .video-container embed {
 }
 article .container .row blockquote {
   font-style: italic;
-  font-family: "Georgia", serif;
+  font-family: "Georgia", sans-serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
