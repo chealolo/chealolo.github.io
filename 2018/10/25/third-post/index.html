@@ -214,7 +214,137 @@
 <hr>
 <h1 id="MarkDown문법"><a href="#MarkDown문법" class="headerlink" title="MarkDown문법?"></a>MarkDown문법?</h1><p>일종의 마크업 언어로 간단하고 빠르게 배울수 있다. 무엇보다 정보가 많아 검색하면 잘나온다는 점도 장점이라 할수있다.</p>
 <hr>
-<h1 id="마크다운-문법"><a href="#마크다운-문법" class="headerlink" title="마크다운 문법"></a>마크다운 문법</h1>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 제목 1</span><br><span class="line">## 제목 2 </span><br><span class="line">## 제목 3</span><br></pre></td></tr></table></figure>
+<h1 id="마크다운-문법"><a href="#마크다운-문법" class="headerlink" title="마크다운 문법"></a>마크다운 문법</h1><ol>
+<li><p>제목  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 제목 1</span><br><span class="line">## 제목 2 </span><br><span class="line">### 제목 3 </span><br><span class="line">#### 제목 4</span><br><span class="line">##### 제목 5</span><br><span class="line">###### 제목 6</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="제목1"><a href="#제목1" class="headerlink" title="제목1"></a>제목1</h1><h2 id="제목2"><a href="#제목2" class="headerlink" title="제목2"></a>제목2</h2><h3 id="제목3"><a href="#제목3" class="headerlink" title="제목3"></a>제목3</h3><h4 id="제목-4"><a href="#제목-4" class="headerlink" title="제목 4"></a>제목 4</h4><h5 id="제목-5"><a href="#제목-5" class="headerlink" title="제목 5"></a>제목 5</h5><h6 id="제목-6"><a href="#제목-6" class="headerlink" title="제목 6"></a>제목 6</h6><p>  또는 </p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">제목 1</span><br><span class="line">=====</span><br><span class="line">제목 2</span><br><span class="line">-----</span><br></pre></td></tr></table></figure>
+<h1 id="제목-1"><a href="#제목-1" class="headerlink" title="  제목 1"></a>  제목 1</h1><h2 id="제목-2"><a href="#제목-2" class="headerlink" title="  제목 2"></a>  제목 2</h2><p>  이렇게 사용 가능 하다.  </p>
+<hr>
+<ol start="2">
+<li><p>목록 (List 태그)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 첫번째</span><br><span class="line">2. 두번째</span><br><span class="line">3. 세번째</span><br></pre></td></tr></table></figure>
+<ol>
+<li>첫번째</li>
+<li>두번째</li>
+<li>세번째</li>
+</ol>
+<hr>
+</li>
+</ol>
+<ul>
+<li><p>순서가 필요없는 목록</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 컴퓨터살때 필요한것</span><br><span class="line">- 마우스</span><br><span class="line">  - 모니터</span><br><span class="line">- 키보드</span><br><span class="line">  - 돈...</span><br></pre></td></tr></table></figure>
+<ol>
+<li>컴퓨터살때 필요한것</li>
+</ol>
+<ul>
+<li>마우스<ul>
+<li>모니터</li>
+</ul>
+</li>
+<li>키보드<ul>
+<li>돈…</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 컴퓨터살때 필요한것</span><br><span class="line">+ 마우스</span><br><span class="line">+ 모니터</span><br><span class="line">  + 키보드</span><br><span class="line">  + 돈...</span><br></pre></td></tr></table></figure>
+<ol>
+<li>컴퓨터살때 필요한것</li>
+</ol>
+<ul>
+<li>마우스</li>
+<li>모니터<ul>
+<li>키보드</li>
+<li>돈…</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 컴퓨터살때 필요한것</span><br><span class="line">  * 마우스</span><br><span class="line">* 모니터</span><br><span class="line">  * 키보드</span><br><span class="line">  * 돈...</span><br></pre></td></tr></table></figure>
+<ol>
+<li>컴퓨터살때 필요한것<ul>
+<li>마우스</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>모니터<ul>
+<li>키보드</li>
+<li>돈…</li>
+</ul>
+</li>
+</ul>
+<p>라인에 맞춰서 잘 활용하면 더 보기좋고<br>활용도도 높을것 같다.  </p>
+</li>
+</ul>
+<hr>
+<ul>
+<li><p>순서가 필요한 목록</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 블로그 꾸미기</span><br><span class="line">  1. github 아이디를 만든다</span><br><span class="line">  2. hexo 테마를 둘러본다</span><br><span class="line">  3. 설치한다 </span><br><span class="line">  4. 꾸민다..</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ol>
+<li>블로그 꾸미기<ol>
+<li>github 아이디를 만든다</li>
+<li>hexo 테마를 둘러본다</li>
+<li>설치한다 </li>
+<li>꾸민다..</li>
+</ol>
+</li>
+</ol>
+<hr>
+<ol start="3">
+<li><p>인용문 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; HEXO 블로그 글쓰기</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>HEXO 블로그 글쓰기</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; HEXO 블로그 글쓰기</span><br><span class="line">&gt;&gt; 기술에 대한 글을 올린다</span><br><span class="line">&gt;&gt; 일상생활을 공유한다</span><br><span class="line">&gt;&gt;&gt; 좋은 글을 올린다 </span><br><span class="line">&gt;&gt;&gt; 소통을 자주한다</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>HEXO 블로그 글쓰기</p>
+<blockquote>
+<p>기술에 대한 글을 올린다<br>일상생활을 공유한다</p>
+<blockquote>
+<p>좋은 글을 올린다<br>소통을 자주한다</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<hr>
+<ol start="4">
+<li><p>수평선 hr태그</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. ---</span><br><span class="line">2. ***</span><br><span class="line">3. ___</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ol>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+</ol>
+<p><br>나는 주로 첫번째 수평선 태그를 많이 쓴다.</p>
+<hr>
+<ol>
+<li><p>글자 강조 및 포인트</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*ITALIC* _ITALIC_</span><br><span class="line">**BOLD** __BOLD__</span><br><span class="line">~~CANCLE~~</span><br><span class="line">&lt;u&gt;UNDERLINE&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>  <em>ITALIC</em> <em>ITALIC</em><br>  <strong>BOLD</strong> <strong>BOLD</strong><br>  <del>CANCLE</del><br>  <u>UNDERLINE</u></p>
+<hr>
+<ol start="6">
+<li><p>코드 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">~~~</span><br><span class="line">&lt;p&gt;code 써보기&lt;/p&gt;</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure>
+<p>또는</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">&lt;p&gt;code 써보기&lt;/p&gt;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<p>이상으로 마크다운의 기본 문법에 대해 알아봤습니다.</p>
+</li>
+</ol>
+
 
                 
             </div>
